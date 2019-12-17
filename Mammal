@@ -1,0 +1,30 @@
+public class Mammal extends Animal{
+    private String furColor;
+    private int gestationPeriod;
+
+    public Mammal(){
+        this.furColor = "";
+        this.gestationPeriod = 0;
+    }
+
+    @Override
+    public String eat() {
+        return null;
+    }
+
+    public void setFurColor(String furColor) {
+        this.furColor = furColor;
+    }
+
+    public void setGestationPeriod(int gestaionPeriod) {
+        this.gestationPeriod = gestaionPeriod;
+    }
+
+    public String getFurColor() {
+        return furColor;
+    }
+
+    public int getGestationPeriod() {
+        return gestationPeriod;
+    }
+}
